@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TablacusExplorer>
+  <General>
+    <!-- <Version>1.05</Version> -->
+    <Version>1.00</Version>
+    <MinVersion>2019.1.5</MinVersion>
+    <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
+    <Options>Common:4:4</Options>
+    <Creator>eamat (original Gaku)</Creator>
+    <URL>https://github.com/eamatt/TablacusExplorer-Addons</URL>
+    <License>MIT License</License>
+  </General>
+  <en>
+    <Name>Background Colored with modify date</Name>
+    <Description>Background Colored with modify date</Description>
+  </en>
+  <ja>
+    <Name>更新日時で背景色分け</Name>
+    <Description>更新日時が指定日時以内だった場合に、ファイル名やフォルダ名の背景に色をつける</Description>
+  </ja>
+</TablacusExplorer>
