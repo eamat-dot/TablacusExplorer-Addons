@@ -10,27 +10,77 @@ It is an **unofficial** add-on to the tabbed filer [**Tablacus Explorer**](https
 | extensioncolor_bk  | Background Colored with extension   | [extensioncolor](https://github.com/tablacus/TablacusExplorerAddons/tree/master/extensioncolor)   | [Colored with extension](https://github.com/tablacus/TablacusExplorerAddons/wiki/extensioncolor)    |
 | filtercolor_bk     | Background Colored with filter      | [filtercolor](https://github.com/tablacus/TablacusExplorerAddons/tree/master/filtercolor)         | Colored with filter                                                                                 |
 
+
+
+## Licence
+
+Copyright (c) 2020 eamat  
+Licensed under the MIT License:  
+http://www.opensource.org/licenses/mit-license.php
+
+
+
+This add-on has been adapted by Gaku, the author of Tablacus Explorer, from the official add-on code published under the MIT License. The original is copyrighted by Gaku.
+
+Tablacus Explorer  
+https://github.com/tablacus/TablacusExplorer
+
+TablacusExplorer Addons  
+https://github.com/tablacus/TablacusExplorerAddons
+
+> Tablacus Explorer
+> 
+> Copyright (c) 2011 Gaku  
+> Licensed under the MIT License:  
+> http://www.opensource.org/licenses/mit-license.php
+
+
+
 ---
+
+
+
+
 # Tablacus Explorer Add-ons (Japanese)
 
 Windows用のタブ型ファイラー [**Tablacus Explorer**](https://tablacus.github.io/explorer.html) の**非公式**アドオンです。
 
 ## 背景色で色分け
 
-公式の「**○○で色分け**」系統の背景色バージョン。文字色の代わりに背景色を変えられるようにしただけです。
+公式の「**○○で色分け**」系統の背景色バージョン。文字色の代わりに背景色を変えられるようにしただけです。  
 **背景色だけです。「文字色と背景色 色分け」 ではありません。**
 
 - **公式の「ストライプ」アドオンと競合しています** **ストライプアドオンと併用時は詳細表示ではストライプのほうが優先されます**。
 - 公式のカラーラベルアドオンと同じ方式で背景色をつけています。併用する場合は優先順位をカラーラベルアドオンより下げてください。
 
---- 
-* 公式の色分けアドオンのコードをほぼそのまま流用しています。オリジナルの著作権は Gakuさんにあります。
-  (文字)色分けアドオンとの併用にあたってアドバイスしていただいたGakuさんにこの場を借りてお礼申し上げます。
+(文字)色分けアドオンとの併用にあたってGakuさんにアドバイスしていただきました。ありがとうございます。
 
-### ライセンス
-  Tablacus Explorerのライセンスに準じ、これらも MIT License とします。
+### 著作権、ライセンス
+
+Copyright (c) 2020 eamat  
+Licensed under the MIT License:  
+http://www.opensource.org/licenses/mit-license.php
+
+
+
+当アドオンは Tablacus Explorerの作者 Gakuさんが MIT Licenseのもとで公開されている公式アドオンのコードを流用、改変した物であり、オリジナルの著作権は Gakuさんにあります。
+
+Tablacus Explorer  
+https://github.com/tablacus/TablacusExplorer
+
+TablacusExplorer Addons  
+https://github.com/tablacus/TablacusExplorerAddons
+
+> Tablacus Explorer
+> 
+> Copyright (c) 2011 Gaku  
+> Licensed under the MIT License:  
+> http://www.opensource.org/licenses/mit-license.php
+
+
 
 ### インストール 
+
   addonsフォルダにコピー後、オプションのアドオン一覧から有効にしてください。
 
 ### アンインストール

@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2011 Gaku
+  Licensed under the MIT License:
+  http://www.opensource.org/licenses/mit-license.php
+
 <TablacusExplorer>
   <General>
-    <!-- <Version>1.00</Version> -->
+    <Version>1.00</Version>
+    <MinVersion>2020.4.21</MinVersion>
+    <pubDate>Wed, 22 Apr 2020 00:00:00 GMT</pubDate>
+    <Options>Common:0,4:4</Options>
+    <Creator>Gaku</Creator>
+    <URL>http://tablacus.github.io/TablacusExplorerAddons/</URL>
+    <License>MIT License</License>
+  </General>
+  <en>
+    <Name>Colored with filter</Name>
+    <Description>Colored with filter</Description>
+  </en>
+  <ja>
+    <Name>フィルターで色分け</Name>
+  </ja>
+</TablacusExplorer>
+ -->
+
+<TablacusExplorer>
+  <General>
     <Version>1.00</Version>
     <MinVersion>2020.4.21</MinVersion>
     <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
