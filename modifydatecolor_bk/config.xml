@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!--
   Copyright (c) 2011 Gaku
   Licensed under the MIT License:
   http://www.opensource.org/licenses/mit-license.php
-
-<TablacusExplorer>
+ 
+ <TablacusExplorer>
   <General>
-    <Version>1.05</Version>
-    <MinVersion>2019.1.5</MinVersion>
-    <pubDate>Sat, 05 Jan 2019 00:00:00 GMT</pubDate>
+    <Version>1.06</Version>
+    <MinVersion>2020.11.16</MinVersion>
+    <pubDate>Tue, 17 Nov 2020 00:00:00 GMT</pubDate>
     <Options>Common:4:4</Options>
+    <Level>2</Level>
     <Creator>Gaku</Creator>
-    <URL>http://tablacus.github.io/TablacusExplorerAddons/</URL>
+    <URL>https://tablacus.github.io/TablacusExplorerAddons/</URL>
     <License>MIT License</License>
   </General>
   <en>
@@ -21,17 +21,19 @@
   </en>
   <ja>
     <Name>更新日時で色分け</Name>
-    <Description>更新日時で色分け</Description>
   </ja>
+  <zh>
+    <Name>依修改日期著色</Name>
+  </zh>
 </TablacusExplorer>
  -->
-
 <TablacusExplorer>
   <General>
-    <Version>1.00</Version>
-    <MinVersion>2019.1.5</MinVersion>
-    <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
+    <Version>1.06</Version>
+    <MinVersion>2020.11.16</MinVersion>
+    <pubDate>Sat, 28 Nov 2020 00:00:00 GMT</pubDate>
     <Options>Common:4:4</Options>
+    <Level>2</Level>
     <Creator>eamat (original Gaku)</Creator>
     <URL>https://github.com/eamatt/TablacusExplorer-Addons</URL>
     <License>MIT License</License>
@@ -44,4 +46,7 @@
     <Name>更新日時で背景色分け</Name>
     <Description>更新日時が指定日時以内だった場合に、ファイル名やフォルダ名の背景に色をつける</Description>
   </ja>
+  <zh>
+    <Name>依修改日期著色</Name>
+  </zh>
 </TablacusExplorer>
