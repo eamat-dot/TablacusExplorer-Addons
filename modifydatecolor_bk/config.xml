@@ -27,6 +27,11 @@
   </zh>
 </TablacusExplorer>
  -->
+<!-- ChangeLog
+  2020/11/28  ver.1.06
+    オリジナル(更新日時で色分け)の更新に追従(WebView2対応っぽい)
+    * バージョン表記は独自に刻んでも分かりにくいのでオリジナル(更新日時で色分け) と合わせることにした
+-->
 <TablacusExplorer>
   <General>
     <Version>1.06</Version>
@@ -35,7 +40,7 @@
     <Options>Common:4:4</Options>
     <Level>2</Level>
     <Creator>eamat (original Gaku)</Creator>
-    <URL>https://github.com/eamatt/TablacusExplorer-Addons</URL>
+    <URL>https://github.com/eamat-dot/TablacusExplorer-Addons</URL>
     <License>MIT License</License>
   </General>
   <en>
@@ -47,6 +52,6 @@
     <Description>更新日時が指定日時以内だった場合に、ファイル名やフォルダ名の背景に色をつける</Description>
   </ja>
   <zh>
-    <Name>依修改日期著色</Name>
+    <Name>依修改日期背景色</Name>
   </zh>
 </TablacusExplorer>
