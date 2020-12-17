@@ -14,11 +14,7 @@ It is an **unofficial** add-on to the tabbed filer [**Tablacus Explorer**](https
 
 ## Licence
 
-Copyright (c) 2020 eamat  
-Licensed under the MIT License:  
-http://www.opensource.org/licenses/mit-license.php
-
-
+Copyright (c) 2020 eamat.  
 
 This add-on has been adapted by Gaku, the author of Tablacus Explorer, from the official add-on code published under the MIT License. The original is copyrighted by Gaku.
 
@@ -28,15 +24,10 @@ https://github.com/tablacus/TablacusExplorer
 TablacusExplorer Addons  
 https://github.com/tablacus/TablacusExplorerAddons
 
-> Tablacus Explorer
-> 
-> Copyright (c) 2011 Gaku  
-> Licensed under the MIT License:  
-> http://www.opensource.org/licenses/mit-license.php
 
 
-
----
+Copyright (c) 2011 Gaku  
+https://github.com/tablacus/TablacusExplorerAddons/blob/master/LICENSE.TXT
 
 
 
@@ -55,13 +46,8 @@ Windows用のタブ型ファイラー [**Tablacus Explorer**](https://tablacus.g
 
 (文字)色分けアドオンとの併用にあたってGakuさんにアドバイスしていただきました。ありがとうございます。
 
-### 著作権、ライセンス
-
-Copyright (c) 2020 eamat  
-Licensed under the MIT License:  
-http://www.opensource.org/licenses/mit-license.php
-
-
+### ライセンス
+Copyright (c) 2020 eamat.   
 
 当アドオンは Tablacus Explorerの作者 Gakuさんが MIT Licenseのもとで公開されている公式アドオンのコードを流用、改変した物であり、オリジナルの著作権は Gakuさんにあります。
 
@@ -71,11 +57,10 @@ https://github.com/tablacus/TablacusExplorer
 TablacusExplorer Addons  
 https://github.com/tablacus/TablacusExplorerAddons
 
-> Tablacus Explorer
-> 
-> Copyright (c) 2011 Gaku  
-> Licensed under the MIT License:  
-> http://www.opensource.org/licenses/mit-license.php
+
+
+Copyright (c) 2011 Gaku  
+https://github.com/tablacus/TablacusExplorerAddons/blob/master/LICENSE.TXT
 
 
 

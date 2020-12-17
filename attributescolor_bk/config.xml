@@ -1,39 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-  Copyright (c) 2011 Gaku
-  Licensed under the MIT License:
-  http://www.opensource.org/licenses/mit-license.php
+    Copyright (c) 2011 Gaku
+    Copyright (c) 2020 eamat.
+    Licensed under the MIT License:
+    https://github.com/eamat-dot/TablacusExplorer-Addons/blob/master/LICENSE.txt
+-->
+<!-- ChangeLog
+  2020/12/16  ver.1.05
+    オリジナル(属性で色分け)の更新に追従(WebView2対応っぽい)
+    * バージョン表記は独自に刻んでも分かりにくいのでオリジナルアドオンと合わせることにした
+-->
 
 <TablacusExplorer>
   <General>
-    <Version>1.04</Version>
-    <MinVersion>2019.4.15</MinVersion>
-    <pubDate>Tue, 16 Apr 2019 00:00:00 GMT</pubDate>
+    <Version>1.05</Version>
+    <MinVersion>2020.12.4</MinVersion>
+    <pubDate>Wed, 16 Dec 2020 00:00:00 GMT</pubDate>
     <Options>Common:0:0</Options>
-    <Creator>Gaku</Creator>
-    <URL>http://www.eonet.ne.jp/~gakana/tablacus/addons/</URL>
-    <License>MIT License</License>
-  </General>
-  <en>
-    <Name>Colored with attributes</Name>
-    <Description>Colored with attributes</Description>
-  </en>
-  <ja>
-    <Name>属性で色分け</Name>
-    <Description>属性で色分け</Description>
-  </ja>
-</TablacusExplorer>
- -->
-
-<TablacusExplorer>
-  <General>
-    <Version>1.00</Version>
-    <MinVersion>2019.4.15</MinVersion>
-    <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
-    <Options>Common:0:0</Options>
-    <Creator>eamat (original Gaku)</Creator>
-    <URL>https://github.com/eamatt/TablacusExplorer-Addons</URL>
+    <Level>2</Level>
+    <Creator>eamat. (original Gaku)</Creator>
+    <URL>https://github.com/eamat-dot/TablacusExplorer-Addons</URL>
     <License>MIT License</License>
   </General>
   <en>
@@ -42,6 +29,8 @@
   </en>
   <ja>
     <Name>属性で背景色分け</Name>
-    <Description>属性(システム属性や隠しファイル属性など)で判別して、ファイル名やフォルダ名の背景に色をつける</Description>
   </ja>
+  <zh>
+    <Name>依屬性著背景色</Name>
+  </zh>
 </TablacusExplorer>

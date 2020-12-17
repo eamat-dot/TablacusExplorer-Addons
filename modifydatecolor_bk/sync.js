@@ -1,17 +1,17 @@
-var Addon_Id = "modifydatecolor_bk";
-var item = GetAddonElement(Addon_Id);
+const Addon_Id = "modifydatecolor_bk";
+const item = GetAddonElement(Addon_Id);
 
 Sync.ModifyDateColor_BK = {
 	Color: []
 };
 
 try {
-	var smhdw = { s: 1000, m: 60000, h: 3600000, d: 86400000, w: 604800000, y: 31536000000 };
-	var ado = OpenAdodbFromTextFile(BuildPath(te.Data.DataFolder, "config\\modifydatecolor_bk.tsv"));
+	const smhdw = { s: 1000, m: 60000, h: 3600000, d: 86400000, w: 604800000, y: 31536000000 };
+	const ado = OpenAdodbFromTextFile(BuildPath(te.Data.DataFolder, "config\\modifydatecolor_bk.tsv"));
 	while (!ado.EOS) {
-		var ar = ado.ReadText(adReadLine).split("\t");
+		const ar = ado.ReadText(adReadLine).split("\t");
 		if (ar[0]) {
-			var s = ar[0].replace(/([\dx]+)([smhdwy])/ig, function (all, re1, re2) {
+			const s = ar[0].replace(/([\dx]+)([smhdwy])/ig, function (all, re1, re2) {
 				return eval(re1.replace(/x/ig, "*")) * smhdw[re2.toLowerCase()] + '+';
 			}).replace(/\+$/, "");
 			Sync.ModifyDateColor_BK.Color.push([s, ar[1] ? GetWinColor(ar[1]) : -1]);
@@ -26,16 +26,15 @@ Sync.ModifyDateColor_BK.Color = Sync.ModifyDateColor_BK.Color.sort(function (a, 
 
 AddEvent("ItemPrePaint2", function (Ctrl, pid, nmcd, vcd, plRes) {
 	if (pid) {
-		var d = new Date() - pid.ModifyDate;
-		for (var i = Sync.ModifyDateColor_BK.Color.length; i--;) {
-			var ar = Sync.ModifyDateColor_BK.Color[i];
+		const d = new Date() - pid.ModifyDate;
+		for (let i = Sync.ModifyDateColor_BK.Color.length; i--;) {
+			const ar = Sync.ModifyDateColor_BK.Color[i];
 			if (d < ar[0]) {
 				if (ar[1] != -1) {
 					vcd.clrTextBk = ar[1];
 					return S_OK;
-				} else {
-					return;
 				}
+				return;
 			}
 		}
 	}
