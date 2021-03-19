@@ -10,13 +10,14 @@
   2020/12/16  ver.1.04
     オリジナル(アクセス日時で色分け)の更新に追従(WebView2対応っぽい)
     * バージョン表記は独自に刻んでも分かりにくいのでオリジナルアドオンと合わせることにした
+  2021/03/20  ver.1.05
 -->
 
 <TablacusExplorer>
   <General>
-    <Version>1.04</Version>
-    <MinVersion>2020.12.11</MinVersion>
-    <pubDate>Wed, 16 Dec 2020 00:00:00 GMT</pubDate>
+    <Version>1.05</Version>
+    <MinVersion>2021.3.7</MinVersion>
+    <pubDate>Sat, 13 Mar 2021 00:00:00 GMT</pubDate>
     <Options>Common:4:4</Options>
     <Level>2</Level>
     <Creator>eamat. (original Gaku)</Creator>
